@@ -1,4 +1,5 @@
 use anyhow::{self, Ok};
+mod error;
 mod model;
 mod subdomain;
 use reqwest::Client;
